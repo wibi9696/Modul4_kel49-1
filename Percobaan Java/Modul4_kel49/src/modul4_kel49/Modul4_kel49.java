@@ -29,7 +29,7 @@ public class Modul4_kel49 {
 
     public static void main(String[] args) {
         //penggunaan function non-return type dengan megisikan argument untuk parameter kelompok
-        cetak("Kelompok XX");
+        cetak("Kelompok 49");
         //penggunaan function non-return type tanpa parameter
         cetak1(); 
         //penggunaan function return type dengan mengisikan nilai pada parameter text
@@ -39,8 +39,9 @@ public class Modul4_kel49 {
         pendefinisi objek = new pendefinisi();
  
         objek.greeting();
-        objek.kelompok("Kelompok xx");
-        String print = objek.kenalan("Erika", "Baca Novel");
+        objek.kelompok("Kelompok 49");
+        String print = objek.kenalan("Aldi Mulyawan", "Main Game");
         System.out.println(print);
+        System.out.println("Program End");
     }
     }
