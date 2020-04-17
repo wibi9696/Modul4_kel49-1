@@ -28,5 +28,6 @@ arbitrary_func(a)
 
 p1= Percobaan_2.contoh_method("Aldi","SMAM")
 p1.mulai()
-p1.selesai(3)
+a=int(input("masukkan angka"))
+p1.selesai(a)
 
